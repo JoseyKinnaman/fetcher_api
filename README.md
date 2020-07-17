@@ -3,7 +3,7 @@
 ### July, 2020
 
 ## Description
-A pet name database and opensource API made as a tool for pet owners and animal shelters that corresponds with the Fetcher App.
+A pet name database and opensource API made as a tool for pet owners and animal shelters that corresponds with the Fetch App.
 
 ## Setup//Install
  * Clone in terminal : https://github.com/JoseyKinnaman/fetcher_api.git
