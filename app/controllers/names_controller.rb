@@ -17,7 +17,11 @@ class NamesController < ApplicationController
 
   def update
     @name = Name.find(params[:id])
-    @name.update(name_params)
+    if @name.update!(name_params)
+      rende status: 200, json: {
+        message: "This name has been updated successfully."
+      }
+      end
   end
 
   def destroy
@@ -31,6 +35,6 @@ class NamesController < ApplicationController
   end
 
   def name_params
-    params.permit(:name, :categoy, :male, :female, :comments)
+    params.permit(:name, :category, :male, :female, :comments)
   end
 end

@@ -1,43 +1,75 @@
 name_list = [
-  
+
 ["Alan", "People Names", true, true, "Adrogynous"],
+
 ["Archibald", "People Names", true, true, "'Archie' for short"],
+
 ["Arnold","People Names",  true, false, "'Arnie' for short"],
+
 ["Beatrix", "People Names", false, true, "'Bea' for short"],
+
 ["Barbara", "People Names", false, true, "'Barb' or 'Barbie' for short"],
+
 ['Becky', "People Names", false, true, "Oh Becky!"],
+
 ["Birdie", "People Names", false, true, "'Birdi' is another option for spelling"],
+
 ["Bob", "People Names", true, false, "'Bobby' or 'Robert' could work too"], 
+
 ["Bucky", "People Names", true, false, "'Buckshot' or 'Buck"], 
+
 ["Darla", "People Names", false, true, "or Darlene"],
+
 ["Dennis", "People Names", true, false, "The Menace"],
-# ["Dolly", "People Names"] ,
-# ["Dorothy", "People Names"],
-# ["Edward", "People Names", "Eddie"]
-# ["Edie", "People Names"],
-# ["Edna", "People Names"],
-# ["Emerald", "People Names"],
-# ["Estelle", "People Names"],
-# ["Ethelle", "People Names"],
-# ["Faye", "People Names"],
-# ["Fern", "People Names"],
-# ["Frank", "People Names"],
-# ["Gilda", "People Names"],
-# ["Grandma", "People Names"],
-# ["Grandpa", "People Names"],
-# ["Herman", "People Names"],
-# ["Janet", "People Names"],
-# ["Jocepe", "People Names"],
-# ["Joe", "People Names"],
-# ["Joseph", "People Names"],
-# ["Judy", "People Names",]
-# ["Lorraine", "People Names"],
-# ["Loretta", "People Names"],
-# ["Lucille", "People Names"],
+
+["Dolly", "People Names", false, true, "Who is cuter than Dolly Parton?"],
+
+["Dorothy", "People Names", false, true, "The Wizard of Oz"],
+
+["Edward", "People Names", true, true, "'Eddie' or 'Ed'"],
+
+["Edie", "People Names", false, true, "Pronounced 'Eeeee-D'"],
+
+["Edna", "People Names", false, true, "Like Mrs. Krabappel from The Simpsons!"],
+
+["Emerald", "People Names", false, true, "Also a stone and a Thin Lizzy song."],
+
+["Estelle", "People Names", false, true, "Like the lovely Estelle Getty. Stella is also a classic."],
+
+["Ethelle", "People Names", false, true, "Please name your pet this."],
+
+["Faye", "People Names", false, true, "Or 'Fey'"],
+
+["Fern", "People Names", false, true, "A great add on or middle name for a pup or kitty. Also a plant."],
+
+["Frank", "People Names", true, true, "'Francis', 'Fran', 'Frankie'"],
+
+["Gilda", "People Names", false, true, "The good witch!"],
+
+["Grandma", "People Names", false, true, "Everybody loves Grandma. Especially King Diamond."],
+
+["Grandpa", "People Names", true, false, "or 'Grampa'"],
+
+["Herman", "People Names", true, false, "Munster"],
+
+["Janet", "People Names", true, false, "I once knew a rabbit named Janet"],
+
+["Jocepe", "People Names", true, false, "Fun to say. Spelling may be wrong."],
+
+["Joe", "People Names", true, true, "Real Average. 'Joseph' or 'Jo'"],
+
+["Judy", "People Names", false, true, "Judy is slang for a good pal."],
+
+["Lorraine", "People Names", false, true, "A region in France. Also, 'Lori' or 'Lory'."],
+
+["Loretta", "People Names", false, true, "Loretta Lynn"],
+
+["Lucille", "People Names", false, true, "'Lucille, you won't do your Sisters' will?'"],
+
 # ["Max", "People Names"],
-# *["Morty", "People Names"],
+# ["Morty", "People Names"],
 # ["Pam", "People Names"],
-# *["Ralph", "People Names"],
+# ["Ralph", "People Names"],
 # ["Robert", "People Names"],
 # ["Roberta", "People Names"],
 # ["Ruby", "People Names"],
@@ -336,6 +368,10 @@ name_list = [
 
 ]
 
+Name.destroy_all
+
 name_list.each do |name, category, male, female, comments|
   Name.create(name: name, category: category, male: male, female: female, comments:comments)
 end
+
+p "Created #{Name.count} names"
