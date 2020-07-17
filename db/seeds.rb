@@ -3,340 +3,334 @@ name_list = [
 ["Alan", "People Names", true, true, "none"],
 ["Archibald", "People Names", "Archie"],
 ["Arnold/Arnie","People Names", ],
-["Beatrix", "People Names", "Bea"],["Barbara" ]
-['Becky', "People Names",]
-["Birdie", "People Names",]
-["Bob", "People Names",]
-*["Bucky", "People Names",]
-["Darla", "People Names",]
-["Dennis", "People Names",]
-["Dolly", "People Names"] 
-["Dorothy", "People Names"]
-["Eddie"/"Edward"]
-["Edie"]
-["Edna"]
-["Emerald"] 
-["Estelle"]
-["Ethelle"]
-["Faye"]
-["Fern"]
-["Frank
-"]["Gilda"]
-*["Grandma"]
-*["Grandpa"]
-["Herman"]
-*["Janet"]
-["Jocepe"]
-["Joe"]
-["Joseph"]
-["Judy"]
-["Lorraine"]
-["Loretta"]
-["Lucille"]
-["Max"]
-*["Morty"]
-["Pam"]
-*["Ralph"]
-["Robert"]
-["Roberta"]
-["Ruby"]
-["Sally"]
-["Seamous"]
-["Sherman"]
-["Sharon"]
-["Steve"]
-["Steven"]
-["Sylvia"]
-["Tammy"]
-["Thomas"]
-["Victor"]
-["Wanda"]
-["Wilma"]
+["Beatrix", "People Names", "Bea"],["Barbara" ],
+['Becky', "People Names",],
+["Birdie", "People Names",],
+["Bob", "People Names",], 
+*["Bucky", "People Names",], 
+["Darla", "People Names",],
+["Dennis", "People Names",],
+["Dolly", "People Names"] ,
+["Dorothy", "People Names"],
+["Edward", "People Names", "Eddie"]
+["Edie", "People Names"],
+["Edna", "People Names"],
+["Emerald"],
+["Estelle"],
+["Ethelle"],
+["Faye"],
+["Fern"],
+["Frank"],
+["Gilda"],
+["Grandma"],
+["Grandpa"],
+["Herman"],
+["Janet"],
+["Jocepe"],
+["Joe"],
+["Joseph"],
+["Judy"],
+["Lorraine"],
+["Loretta"],
+["Lucille"],
+["Max"],
+*["Morty"],
+["Pam"],
+*["Ralph"],
+["Robert"],
+["Roberta"],
+["Ruby"],
+["Sally"],
+["Seamous",]
+["Sherman"],
+["Sharon"],
+["Steve"],
+["Steven"],
+["Sylvia"],
+["Tammy"],
+["Thomas"],
+["Victor"],
+["Wanda"],
+["Wilma"],
 
-*["Blanche"]
-*["Dorthy"]
-*["Rose"] 
-*["Sophia"]
+*["Blanche"],
+*["Dorthy"],
+*["Rose"] ,
+*["Sophia"],
 
 Fictional Characters
-["Aria"]
-["Barbarella"]
-["Beavis"] (you can’t name your pet “Butthead” I’m sorry)
-*["Beatrix"]
-["Beaker"]
-["Beetle"] Juice
-*["Bill"] &Ted
-["Brad"]
-["Church"] (Winston Churchill)
-["Columbia"]
-["Cowboy"] Curtis 
-["Cujo"]
-["Data"]
-["Doctor"] Frankenfurter
-["Dottie"]
-["Figaro"]
-["Fraggle"]
-["Fozzy"]
-["Hodor"]
-["Immortan"] Joe
-["Janet"]
-["Johnny"] Utah
-["Jones"] (Alien)
-["Kermit"]
-["Leather"] Tuscadero
-["Lord"] Humongous 
-["Mad"] Max
-["Magenta"]
-["Master"] Blaster
-["Mavis"] Beacon
-*["Morty"]
-["Ms"]. Evone 
-["Pascow"]
-["Pewee"]
-*["Poncho"] and Lefty
-["Rick"]
-["Riff"] Raff
-["Ripley"] 
-["Teddy"] Ruxpin (Ruxpin for short)
-["Toe"] Cutter
-["Warchild"]
-*["Wayne"] and Garth 
-["Ziggy"] Stardust
-["Zoltan"]
+["Aria"],
+["Barbarella"],
+["Beavis"], (you can’t name your pet “Butthead” I’m sorry)
+*["Beatrix"],
+["Beaker"],
+["Beetle"] Juice,
+*["Bill"] &Ted,
+["Brad"],
+["Church"] (Winston Churchill),
+["Columbia"],
+["Cowboy"] Curtis, 
+["Cujo"],
+["Data"],
+["Doctor"] Frankenfurter,
+["Dottie"],
+["Figaro"],
+["Fraggle"],
+["Fozzy"],
+["Hodor"],
+["Immortan"] Joe,
+["Janet"],
+["Johnny"] Utah,
+["Jones"] (Alien),
+["Kermit"],
+["Leather"] Tuscadero,
+["Lord"] Humongous ,
+["Mad"] Max,
+["Magenta"],
+["Master"] Blaster,
+["Mavis"] Beacon,
+*["Morty"],
+["Ms"]. Evone, 
+["Pascow"],
+["Pewee"],
+*["Poncho"] and Lefty,
+["Rick"],
+["Riff"] Raff,
+["Ripley"] ,
+["Teddy"] Ruxpin (Ruxpin for short),
+["Toe"] Cutter,
+["Warchild"],
+*["Wayne"] and Garth ,
+["Ziggy"] Stardust,
+["Zoltan"],
 
 Food and Drink
 ["Banana
-"]["Blue"] Berry 
-["Booberry"]
-["Burger"]
-["Chaco"] Taco 
-["Chalula"]
-["Chicken"]
-["Chip"]
-["Count"] Chocula
-["Crinkle"] Cut
-["Crispy"]
-["Dolma"]
-["Doughnut"]
-["Fiddle"] Faddle
-["Flap"] Jack(s)
-["Garbanzo"]
-["Kale"]
-["Mamba"]
-["Nacho"]
-["Pasta"]
-["Pancake"](s)
-["Peppermint"]
-["Pickle"]
-*["Pigeon"] (please don’t eat them)
-["Pizza"]
-["Potato"] 
-["Ravioli"]
-["Razberry"]
-["Taco"]
-["Tim"] Tam
-["Tomoatoe"]
-["Trailmix"]
-["Topo"] Chico
-["Torta"]
-["Waffles"]
+"],["Blue"] Berry, 
+["Booberry"],
+["Burger"],
+["Chaco"] Taco, 
+["Chalula"],
+["Chicken"],
+["Chip"],
+["Count"] Chocula,
+["Crinkle"] Cut,
+["Crispy"],
+["Dolma"],
+["Doughnut"],
+["Fiddle"] Faddle,
+["Flap"] Jack(s),
+["Garbanzo"],
+["Kale"],
+["Mamba"],
+["Nacho"],
+["Pasta"],
+["Pancake"](s),
+["Peppermint"],
+["Pickle"],
+*["Pigeon"] (please don’t eat them),
+["Pizza"],
+["Potato"] ,
+["Ravioli"],
+["Razberry"],
+["Taco"],
+["Tim"] Tam,
+["Tomoatoe"],
+["Trailmix"],
+["Topo"] Chico,
+["Torta"],
+["Waffles"],
 
 Nonsensical things and Objects
-["Cfa (C for Cat)
-"]["Wiggle and Fidget"]
-["Nono"]
-["Sari Mauve "]
-["Jumanji"]
-["Cabo Wabo"]
-["Booger"]
-["Tuk Tuk"]
-["Widjet "]
-["Chuco"]
-["ChooChoo"]
-["Pencil"]
-["Trumpet"] 
-["Room 8"]
-["Trex (T-ReX)"]
-["Dander"]
-["Dander Devito "]
-["Zamboni"]
+["Cfa", "Nonsensical", true, true, "C for Cat"],
+["Wiggle and Fidget"],
+["Nono"],
+["Sari Mauve"],
+["Jumanji"],
+["Cabo Wabo"],
+["Booger"],
+["Tuk Tuk"],
+["Widjet "],
+["Chuco"],
+["ChooChoo,"]
+["Pencil"],
+["Trumpet"], 
+["Room 8"],
+["Trex (T-ReX)"],
+["Dander"],
+["Dander Devito"],
+["Zamboni"],
 
 
 
-["Omega"] 
-["Freki"]
-["Cowboy"] 
-["Fenriz"]
-["Pirate"]
-["Phantom"]
-["Comando"]
-["Elvira"]
-["Kevin"]
-["Mark "]
-["Bomber "]
-["Blinko"]
+["Omega"],
+["Freki"],
+["Cowboy"], 
+["Fenriz"],
+["Pirate"],
+["Phantom"],
+["Comando"],
+["Elvira"],
+["Kevin"],
+["Mark "],
+["Bomber "],
+["Blinko"],
 
 
 
 
 
 Famous People
-["Crowley"]
-["Faulkner"]
-["Katie Perry (["Kitty Purry"])"]
-["Poe"]
-["Prince"]
-["Reba"]
-["Temple"]
-["Tesla"]
-["Tupac"]
+["Crowley"],
+["Faulkner"],
+["Katie Perry (["Kitty Purry"])"],
+["Poe"],
+["Prince"],
+["Reba"],
+["Temple"],
+["Tesla"],
+["Tupac"],
 
 Punk and Metal
-["Hellhammer"]
-["Mantis"]
-["Cronos"]
-["Abadon"]
-["Beherit"]
-["Halford"]
-["Tom G Warrior"] 
-["Warlock"]*
-["Pantera"]
-Sid ["Vicious"]
-["Glen"] and KK Browning
-["Ulver"]
-["Rollins"]
-["Uli"]
-["Udo"]
-["Mr"]. Crowley
-["Ozzy"]
-["Bones"]
-["Black"] Flag
-["Paintbox"]
-["Midnight"] (A white cat? Don’t be basic)
-["Blacky"] ["Lawless"]
-["Leather"]
-["Fenriz"]
-["Doro"] 
-["Tesla"]
-["Danzig"]
+["Hellhammer"],
+["Mantis"],
+["Cronos"],
+["Abadon"],
+["Beherit"],
+["Halford"],
+["Tom G Warrior"], 
+["Warlock"],
+["Pantera"],
+Sid ["Vicious"],
+["Glen"],
+["KK Browning"],
+["Ulver"],
+["Rollins"],
+["Uli"],
+["Udo"],
+["Mr. Crowley"],
+["Ozzy"],
+["Bones"],
+["Black Flag"],
+["Paintbox"],
+["Midnight", "(A white cat? Don’t be basic)"], 
+["Blacky"],
+ ["Lawless"],
+ ["Blacky Lawless"],
+["Leather"],
+["Fenriz"],
+["Doro"] ,
+["Tesla"],
+["Danzig"],
 
 New Age
-["Arrow"]
-["Hex"]
-["Jex"]
-["Toth"]
-["Tarot"]
-["Raja"]
-["Majick"]
-["Chakra"]
-["Shakti"]
-["Deva"]
-["Shiva"]
-["Shakti"]
-["Hoodoo"]
-["Voodoo"]
-["Kali Ma"] 
-["Gypsy"]
+["Arrow"],
+["Hex"],
+["Jex"],
+["Toth"],
+["Tarot"],
+["Raja"],
+["Majick",]
+["Chakra"],
+["Shakti"],,
+["Deva"],
+["Shiva"],
+["Shakti"],
+["Hoodoo"],
+["Voodoo"],
+["Kali Ma"], 
+["Gypsy"],
 
 Famous Animals
-["Laika"]
-["Sputnik"]
-["Towser"]
-["Pooli
-"]["Room8"] 
+["Laika"],
+["Sputnik"],
+["Towser"],
+["Pooli"],
+["Room8"] 
 
 
 Animals
-["Worm"]
-["Chicken"] 
-["Pigeon"]
-["Mouse"] 
-["Moose"]
-["Goat"]
-["Goose"]
-["Pig"]
-["Raven"]
-["Possum"]
-["Spider"]
-["Butterfly"]
+["Worm"],
+["Chicken"], 
+["Pigeon"],
+["Mouse"], 
+["Moose"],
+["Goat"],
+["Goose"],
+["Pig"],
+["Raven"],
+["Possum"],
+["Spider"],
+["Butterfly"],
 
 
 Mythical Creatures
-["Banshee"]
-["Warlock"]
-["Satan"]
+["Banshee"],
+["Warlock"],
+["Satan"],
 
 Exotic
-["Osito"]
-["Silje"]
-["Guttorm", "Boy worm in Norwegian"] 
-["Kyrre"]
-["Sondre"]
-["Runar"]
-["Bjorn"] 
-["Torfinn"]
-["Hallgeir
-"]["Tromod"]
-["Halvdan"]
-["Sondre"]
-["Asbjorn"]
-["Ragnar"]
-["Bard"]
-["Stale"] 
-["Sigmund"]
-["Snorre"]
-["Malfrid"] 
-["Roja"]
-["Solveig"]
-["Gerd"]
-["Aud"]
-["Turid"]
-["Reidun"]
-["Oda"]
-["Ingeborg"]
-["Sigrid"]
-["Vilde"]
-["Vidis"]
-["Sonja"]
-["Solfrid"]
-["Solvi"]
-["Hildur"]
-["Gjertrud"]
-["Audhild"]
+["Osito"],
+["Silje"],
+["Guttorm", "Boy worm in Norwegian"], 
+["Kyrre"],
+["Sondre"],
+["Runar"],
+["Bjorn"] ,
+["Torfinn"],
+["Hallgeir"],
+["Tromod"],
+["Halvdan"],
+["Sondre"],
+["Asbjorn"],
+["Ragnar"],
+["Bard"],
+["Stale"], 
+["Sigmund"],
+["Snorre"],
+["Malfrid"], 
+["Roja"],
+["Solveig"],
+["Gerd"],
+["Aud"],
+["Turid"],
+["Reidun"],
+["Oda"],
+["Ingeborg"],
+["Sigrid"],
+["Vilde"],
+["Vidis"],
+["Sonja"],
+["Solfrid"],
+["Solvi"],
+["Hildur"],
+["Gjertrud"],
+["Audhild"],
 
 Plants and Flowers
-["Dahlia"]
-["Fern"] 
-["Huckleberry"]
-["Begonia"]
-["Lily"]
-["Daffodil"]
+["Dahlia"],
+["Fern"] ,
+["Huckleberry"],
+["Begonia"],
+["Lily"],
+["Daffodil"],
 
 Spooky Stuff
-["Ouija"]
-["Tarot"]
-["Ghost"]
-["Dahmer"]
-["Ramirez"]
-["Krueger
-[""]Vorhees"]
-["Hoodoo"]
-["Voodoo"]
+["Ouija"],
+["Tarot"],
+["Ghost"],
+["Dahmer"],
+["Ramirez"],
+["Krueger"],
+["Vorhees"],
+["Hoodoo"],
+["Voodoo"],
 
-["Instruments"]
-["Piano"]
-["Banjo"]
-["Trumpet"]
-["Tuba"]
-["Trombone"]
-
-
-
-
-
-
-
-
-
+["Instruments"],
+["Piano"],
+["Banjo"],
+["Trumpet"],
+["Tuba"],
+["Trombone"],
 
 ]
