@@ -1,13 +1,14 @@
 name_list = [
   
 ["Alan", "People Names", true, true, "none"],
-["Archibald", "People Names", "Archie"],
-["Arnold/Arnie","People Names", ],
-["Beatrix", "People Names", "Bea"],["Barbara" ],
-['Becky', "People Names",],
-["Birdie", "People Names",],
-["Bob", "People Names",], 
-*["Bucky", "People Names",], 
+["Archibald", "People Names", true, true, "'Archie' for short"],
+["Arnold","People Names",  true, false, "'Arnie' for short"],
+["Beatrix", "People Names", false, true, "'Bea' for short"],
+["Barbara", "People Names", false, true, "'Barb' or 'Barbie' for short"],
+['Becky', "People Names", false, true, "Oh Becky!"],
+["Birdie", "People Names", false, true, "'Birdi' is another option for spelling"],
+["Bob", "People Names", true, false, "'Bobby' or 'Robert' could work too"], 
+["Bucky", "People Names", true, false, "'Buckshot' or 'Buck"], 
 ["Darla", "People Names",],
 ["Dennis", "People Names",],
 ["Dolly", "People Names"] ,
@@ -53,95 +54,97 @@ name_list = [
 ["Wanda"],
 ["Wilma"],
 
-*["Blanche"],
-*["Dorthy"],
-*["Rose"] ,
-*["Sophia"],
+["Blanche"],
+["Dorthy"],
+["Rose"] ,
+["Sophia"],
 
-Fictional Characters
-["Aria"],
-["Barbarella"],
-["Beavis"], (you can’t name your pet “Butthead” I’m sorry)
-*["Beatrix"],
+
+["Aria", "Fictional Characters", false, true, "GOT"],
+["Barbarella", "Fictional Characters"],
+["Beavis", "Fictional Characters", true, false, "You can’t name your pet 'Butthead', I’m sorry."], 
+["Beatrix", "Fictional Characters", false, true, "Kill Bill"],
 ["Beaker"],
-["Beetle"] Juice,
-*["Bill"] &Ted,
+["Beetle Juice"],
+["Bill", "Fictional Characters", true, false, "...and Ted"] 
+["Ted"]
 ["Brad"],
-["Church"] (Winston Churchill),
+["Church","Fictional Characters", true, false, " aka Winston Churchill"],
 ["Columbia"],
-["Cowboy"] Curtis, 
+["Cowboy Curtis"] , 
 ["Cujo"],
 ["Data"],
-["Doctor"] Frankenfurter,
+["Doctor Frankenfurter"] ,
 ["Dottie"],
 ["Figaro"],
 ["Fraggle"],
 ["Fozzy"],
 ["Hodor"],
-["Immortan"] Joe,
+["Immortan Joe"] ,
 ["Janet"],
-["Johnny"] Utah,
-["Jones"] (Alien),
+["Johnny Utah"] ,
+["Jones", ] ,
 ["Kermit"],
-["Leather"] Tuscadero,
-["Lord"] Humongous ,
-["Mad"] Max,
+["Leather Tuscadero"] ,
+["Lord Humongous"] ,
+["Mad Max"] ,
 ["Magenta"],
-["Master"] Blaster,
-["Mavis"] Beacon,
-*["Morty"],
-["Ms"]. Evone, 
+["Master Beacon"] ,
+["Mavis Beacon"] ,
+["Morty"],
+["Ms.Evone","Fictional Characters", false, true, "The most beautful woman in the world."], 
 ["Pascow"],
 ["Pewee"],
-*["Poncho"] and Lefty,
+["Pancho"] 
+["Lefty"],
 ["Rick"],
-["Riff"] Raff,
+["Riff Raff"] ,
 ["Ripley"] ,
-["Teddy"] Ruxpin (Ruxpin for short),
-["Toe"] Cutter,
+["Teddy Ruxpin", "'Ruxpin' for short"] ,
+["Toe Cutter"] ,
 ["Warchild"],
-*["Wayne"] and Garth ,
-["Ziggy"] Stardust,
+["Wayne" "and Garth"],
+["Garth"]
+["Ziggy Stardust"] ,
 ["Zoltan"],
 
-Food and Drink
-["Banana
-"],["Blue"] Berry, 
+
+["Banana", "Food and Drink"],
+["Blue Berry",], 
 ["Booberry"],
 ["Burger"],
-["Chaco"] Taco, 
+["Chaco Taco"] , 
 ["Chalula"],
 ["Chicken"],
 ["Chip"],
-["Count"] Chocula,
-["Crinkle"] Cut,
+["Count Chocula"] ,
+["Crinkle Cut"] ,
 ["Crispy"],
 ["Dolma"],
 ["Doughnut"],
-["Fiddle"] Faddle,
-["Flap"] Jack(s),
+["Fiddle Faddle"],
+["FlapJack(s)"],
 ["Garbanzo"],
 ["Kale"],
 ["Mamba"],
 ["Nacho"],
 ["Pasta"],
-["Pancake"](s),
+["Pancake(s)"],
 ["Peppermint"],
 ["Pickle"],
-*["Pigeon"] (please don’t eat them),
+*["Pigeon"]),
 ["Pizza"],
 ["Potato"] ,
 ["Ravioli"],
 ["Razberry"],
 ["Taco"],
-["Tim"] Tam,
+["Tim Tam"] ,
 ["Tomoatoe"],
 ["Trailmix"],
-["Topo"] Chico,
+["Topo Chico"],
 ["Torta"],
 ["Waffles"],
 
-Nonsensical things and Objects
 ["Cfa", "Nonsensical", true, true, "C for Cat"],
 ["Wiggle and Fidget"],
 ["Nono"],
@@ -180,10 +183,10 @@ Nonsensical things and Objects
 
 
 
-Famous People
-["Crowley"],
+
+["Crowley", "Famous People"],
 ["Faulkner"],
-["Katie Perry (["Kitty Purry"])"],
+["Kitty Purry"],
 ["Poe"],
 ["Prince"],
 ["Reba"],
@@ -191,8 +194,8 @@ Famous People
 ["Tesla"],
 ["Tupac"],
 
-Punk and Metal
-["Hellhammer"],
+
+["Hellhammer", "Alternative"],
 ["Mantis"],
 ["Cronos"],
 ["Abadon"],
@@ -201,7 +204,7 @@ Punk and Metal
 ["Tom G Warrior"], 
 ["Warlock"],
 ["Pantera"],
-Sid ["Vicious"],
+ ["Sid Vicious"],
 ["Glen"],
 ["KK Browning"],
 ["Ulver"],
@@ -213,18 +216,18 @@ Sid ["Vicious"],
 ["Bones"],
 ["Black Flag"],
 ["Paintbox"],
-["Midnight", "(A white cat? Don’t be basic)"], 
+["Midnight", "For a white cat or dog...don’t be basic"], 
 ["Blacky"],
- ["Lawless"],
- ["Blacky Lawless"],
+["Lawless"],
+["Blacky Lawless"],
 ["Leather"],
 ["Fenriz"],
 ["Doro"] ,
 ["Tesla"],
 ["Danzig"],
 
-New Age
-["Arrow"],
+
+["Arrow", "New Age"],
 ["Hex"],
 ["Jex"],
 ["Toth"],
@@ -241,16 +244,16 @@ New Age
 ["Kali Ma"], 
 ["Gypsy"],
 
-Famous Animals
-["Laika"],
+
+["Laika","Famous Animals"],
 ["Sputnik"],
 ["Towser"],
 ["Pooli"],
 ["Room8"] 
 
 
-Animals
-["Worm"],
+
+["Worm", "Animals"],
 ["Chicken"], 
 ["Pigeon"],
 ["Mouse"], 
@@ -264,13 +267,13 @@ Animals
 ["Butterfly"],
 
 
-Mythical Creatures
-["Banshee"],
+
+["Banshee" "Mythical Creatures"],
 ["Warlock"],
 ["Satan"],
 
-Exotic
-["Osito"],
+
+["Osito", "International"],
 ["Silje"],
 ["Guttorm", "Boy worm in Norwegian"], 
 ["Kyrre"],
@@ -307,16 +310,16 @@ Exotic
 ["Gjertrud"],
 ["Audhild"],
 
-Plants and Flowers
-["Dahlia"],
+
+["Dahlia","Plants and Flowers"],
 ["Fern"] ,
 ["Huckleberry"],
 ["Begonia"],
 ["Lily"],
 ["Daffodil"],
 
-Spooky Stuff
-["Ouija"],
+
+["Ouija", "Spooky Stuff"],
 ["Tarot"],
 ["Ghost"],
 ["Dahmer"],
@@ -326,8 +329,7 @@ Spooky Stuff
 ["Hoodoo"],
 ["Voodoo"],
 
-["Instruments"],
-["Piano"],
+["Piano", "Instruments"],
 ["Banjo"],
 ["Trumpet"],
 ["Tuba"],
