@@ -11,8 +11,8 @@ class NamesController < ApplicationController
   end
 
   def create
-    @name = Name.create(name_params)
-    json_response(@name)
+    @name = Name.create!(name_params)
+    json_response(@name :created)
   end
 
   def update
