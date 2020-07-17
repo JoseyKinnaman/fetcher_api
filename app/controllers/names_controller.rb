@@ -12,7 +12,7 @@ class NamesController < ApplicationController
 
   def create
     @name = Name.create!(name_params)
-    json_response(@name :created)
+    json_response(@name, :created)
   end
 
   def update
