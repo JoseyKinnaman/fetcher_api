@@ -3,5 +3,5 @@ class Name < ApplicationRecord
   validates :category, presence: true
   validates :male, presence: true
   validates :female, presence: true
-  validates :comments, presence: true
+  validates :comment, presence: true
 end

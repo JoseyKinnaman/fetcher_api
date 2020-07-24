@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 2020_07_17_181041) do
     t.string "category"
     t.boolean "male"
     t.boolean "female"
-    t.string "comments"
+    t.string "comment"
   end
 
 end

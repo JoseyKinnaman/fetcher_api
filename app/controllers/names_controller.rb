@@ -35,6 +35,6 @@ class NamesController < ApplicationController
   end
 
   def name_params
-    params.permit(:name, :category, :male, :female, :comments)
+    params.permit(:name, :category, :male, :female, :comment)
   end
 end

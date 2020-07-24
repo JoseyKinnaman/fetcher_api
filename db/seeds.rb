@@ -66,12 +66,12 @@ name_list = [
 
 ["Lucille", "People Names", false, true, "'Lucille, you won't do your Sisters' will?'"],
 
-["Max", "People Names"],
-["Morty", "People Names"],
-["Pam", "People Names"],
-["Ralph", "People Names"],
-["Robert", "People Names"],
-["Roberta", "People Names"],
+["Max", "People Names", true, true, "Maxine, Maximus, Maxwell..."],
+["Morty", "People Names", true, false, "Short for 'Mortimer'"],
+["Pam", "People Names", false, true, "Short for 'Pamela' or just 'Pam'"],
+["Ralph", "People Names", true, false, "'My cat's breath smells like catfood.'"],
+["Robert", "People Names", true, false, "'Bob', 'Bobby', 'Rob', 'Robbie'... goes well with a middlename."],
+["Roberta", "People Names", false, true, "*also see 'Robert'"],
 ["Ruby", "People Names"],
 ["Sally", "People Names"],
 ["Seamous","People Names"]
@@ -91,16 +91,16 @@ name_list = [
 ["Sophia", "People Names"],
 
 
-# ["Aria", "Fictional Characters", false, true, "GOT"],
+["Aria", "Fictional Characters", false, true, "GOT"],
 # ["Barbarella", "Fictional Characters"],
-# ["Beavis", "Fictional Characters", true, false, "You can’t name your pet 'Butthead', I’m sorry."], 
-# ["Beatrix", "Fictional Characters", false, true, "Kill Bill"],
+["Beavis", "Fictional Characters", true, false, "You can’t name your pet 'Butthead', I’m sorry."], 
+["Beatrix", "Fictional Characters", false, true, "Kill Bill"],
 # ["Beaker"],
 # ["Beetle Juice"],
-# ["Bill", "Fictional Characters", true, false, "...and Ted"] 
+["Bill", "Fictional Characters", true, false, "...and Ted"] 
 # ["Ted"]
 # ["Brad"],
-# ["Church","Fictional Characters", true, false, " aka Winston Churchill"],
+["Church","Fictional Characters", true, false, " aka Winston Churchill"],
 # ["Columbia"],
 # ["Cowboy Curtis"] , 
 # ["Cujo"],
@@ -123,7 +123,7 @@ name_list = [
 # ["Master Beacon"] ,
 # ["Mavis Beacon"] ,
 # ["Morty"],
-# ["Ms.Evone","Fictional Characters", false, true, "The most beautful woman in the world."], 
+["Ms.Evone","Fictional Characters", false, true, "The most beautful woman in the world."], 
 # ["Pascow"],
 # ["Pewee"],
 # ["Pancho"] 
@@ -176,7 +176,7 @@ name_list = [
 # ["Torta"],
 # ["Waffles"],
 
-# ["Cfa", "Nonsensical", true, true, "C for Cat"],
+["Cfa", "Nonsensical", true, true, "C for Cat"],
 # ["Wiggle and Fidget"],
 # ["Nono"],
 # ["Sari Mauve"],
@@ -276,7 +276,7 @@ name_list = [
 # ["Gypsy"],
 
 
-# ["Laika","Famous Animals"],
+["Laika", true, true, "Famous Animals"],
 # ["Sputnik"],
 # ["Towser"],
 # ["Pooli"],
@@ -368,10 +368,10 @@ name_list = [
 
 ]
 
-Name.destroy_all
 
-name_list.each do |name, category, male, female, comments|
-  Name.create(name: name, category: category, male: male, female: female, comments:comments)
+
+name_list.each do |name, category, male, female, comment|
+  Name.create(name: name, category: category, male: male, female: female, comment:comment)
 end
 
 p "Created #{Name.count} names"
