@@ -118,7 +118,8 @@ name_list = [
 ["Doughnut", "Food and Drink", true, true,],
 ["Fiddle Faddle", "Food and Drink", true, true,],
 ["FlapJack(s)", "Food and Drink", true, true,],
-["Garbanzo", "Food and Drink", true, true,],
+["Garbanzo", "Food and Drink", true, true, "Chickpea"],
+["Halloumi", "Food and Drink", true, true, "Goat and sheep cheese."]
 ["Kale", "Food and Drink", true, true,],
 ["Mamba", "Food and Drink", true, true,],
 ["Nacho", "Food and Drink", true, true,],
@@ -137,7 +138,7 @@ name_list = [
 ["Trailmix", "Food and Drink", true, true,],
 ["Topo Chico", "Food and Drink", true, true,],
 ["Torta", "Food and Drink", true, true,],
-["Waffles", "Food and Drink", true, true,],
+["Waffles", "Food and Drink", true, true, "Friend of Chicken."],
 ["Cfa", "Nonsensical", true, true, "C for Cat"],
 ["Wiggle", "Nonsensical", true, true, "...and Fidget"],
 ["Nono", "Nonsensical", true, true, "I wish I would have named my cat 'Bad Man NoNo'"],
@@ -220,9 +221,12 @@ name_list = [
 
 
 ["Laika", "Famous Animals", true, true, "Dog murdered for science."],
-["Towser", "Famous Animals"],
-["Pooli", "Famous Animals"],
-["Room8", "Famous Animals"] 
+["Towser", "Famous Animals", false, true, "Made it in the Guinness Book of Records as the world's best mouser with a solid count of 28,899 mice."],
+["Pooli", "Famous Animals", false, true,"Pooli the cat was taken aboard the attack transport USS Fremont."],
+["Room8", "Famous Animals", true, false, "Room 8 (1947–1968) was a neighborhood cat who wandered into a classroom in 1952 at Elysian Heights Elementary School in Echo Park, California. He lived in the school during the school year and then disappeared for the summer, returning when classes started again. This pattern continued without interruption until the mid-1960s"],
+["Nighlife", "Famous Animals", true, false, "Beloved local fixture of Atlantic City bar scene."]
+["Dorsey", "Famous Animals", true, false, "Mail carrying dog from Calico to Bismark."]
+["Jacko", "Famous Animals", true, false, "Found his owners murderer and told the police."]
 
 
 
