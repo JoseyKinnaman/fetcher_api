@@ -40,7 +40,7 @@ name_list = [
 ["Roberta", "People Names", false, true, "*also see 'Robert'"],
 ["Ruby", "People Names", false, true, " "],
 ["Sally", "People Names", false, true, " "],
-["Seamous","People Names", true, false, " "]
+["Seamous","People Names", true, false, " "],
 ["Sherman", "People Names", true, false, " "],
 ["Sharon", "People Names", false, true, " "],
 ["Steve", "People Names", true, false, " "],
@@ -63,8 +63,8 @@ name_list = [
 ["Beatrix", "Fictional Characters", false, true, "Kill Bill"],
 ["Beaker", "Fictional Characters", true, true, "All Muppet names are good pet names."],
 ["Beetle Juice","Fictional Characters", true, false, "I am sure some cute nicknames could come of this."],
-["Bill", "Fictional Characters", true, false, "...and Ted"] 
-["Ted", "Fictional Characters", true, false, "Bill and ..."]
+["Bill", "Fictional Characters", true, false, "...and Ted"],
+["Ted", "Fictional Characters", true, false, "Bill and ..."],
 ["Brad", "Fictional Characters", true, false, "'Dammit Janet.'"],
 ["Church","Fictional Characters", true, false, " aka Winston Churchill"],
 ["Columbia","Fictional Characters", false, true, "Rocky Horror"],
@@ -90,7 +90,7 @@ name_list = [
 ["Ms.Evone","Fictional Characters", false, true, "The most beautful woman in the world."], 
 ["Pascow", "Fictional Characters", true, false,"Pet Semetary"],
 ["Pee-wee", "Fictional Characters", true, false,"Paul Reubens"],
-["Pancho", "Fictional Characters", true, false, "Pals with 'Lefty'"] 
+["Pancho", "Fictional Characters", true, false, "Pals with 'Lefty'"] ,
 ["Lefty", "Fictional Characters", true, false, "Pals with 'Pancho'"],
 ["Rick", "Fictional Characters", true, false, "...and Morty"],
 ["Riff Raff", "Fictional Characters", true, false, "Rocky Horror"] ,
@@ -99,7 +99,7 @@ name_list = [
 ["Toe Cutter", "Fictional Characters", true, false, "Mad Max"],
 ["Warchild", "Fictional Characters", true, false,"Point Break"],
 ["Wayne", "Fictional Characters", true, false, "...and Garth"],
-["Garth","Fictional Characters", true, false,"Wayne and ..."]
+["Garth","Fictional Characters", true, false,"Wayne and ..."],
 ["Ziggy Stardust", "Fictional Characters", true, false, "and the Spiders from Mars"] ,
 ["Zoltan","Fictional Characters", true, false, "Dracula's Dog"],
 ["Banana", "Food and Drink", true, true, " " ],
@@ -117,7 +117,7 @@ name_list = [
 ["Fiddle Faddle", "Food and Drink", true, true, " "],
 ["FlapJack(s)", "Food and Drink", true, true, " "],
 ["Garbanzo", "Food and Drink", true, true, "Chickpea"],
-["Halloumi", "Food and Drink", true, true, "Goat and sheep cheese."]
+["Halloumi", "Food and Drink", true, true, "Goat and sheep cheese."],
 ["Kale", "Food and Drink", true, true, " "],
 ["Mamba", "Food and Drink", true, true, "The candy...or the snake."],
 ["Nacho", "Food and Drink", true, true, "Who doesn't like nachos?"],
@@ -146,7 +146,7 @@ name_list = [
 ["Tuk Tuk", "Nonsensical", true, true,"A cab in SE Asia"],
 ["Widjet", "Nonsensical", true, true, " "],
 ["Chuco", "Nonsensical", true, true, " "],
-["ChooChoo", "Nonsensical", true, true,"Another name for train."]
+["ChooChoo", "Nonsensical", true, true,"Another name for train."],
 ["Pencil","Nonsensical", true, true, "'Penny'"],
 ["Trex (T-ReX)", "Nonsensical", true, true, " "],
 ["Dander", "Nonsensical", true, true, " "],
@@ -163,7 +163,7 @@ name_list = [
 ["Faulkner", "Famous People", true, false, "'William'"],
 ["Kitty Purry", "Famous People", false, true, "(Katie Perry)"],
 ["Poe", "Famous People", true, true, "Edgar Allen"],
-["Prince", "Famous People", true, true "Needs a purple collar."],
+["Prince", "Famous People", true, true,"Needs a purple collar."],
 ["Reba", "Famous People", false, true, "'Fancy'"],
 ["Temple", "Famous People", false, true, "'Grandin'"],
 ["Tesla", "Famous People", true, false, "Not the car. Elon could be a cool name tho."],
@@ -172,7 +172,7 @@ name_list = [
 ["Mantis", "Alternative", true, false, "Venom"],
 ["Cronos", "Alternative", true, false, "Venom"],
 ["Abadon", "Alternative", true, false, "Venom"],
-["Beherit","Alternative", true, true, "Evil AF".],
+["Beherit","Alternative", true, true, "Evil AF"],
 ["Halford", "Alternative", true, false, "Rob Halford would be so stoked if you named your cat this."],
 ["Tom G Warrior", "Alternative", true, false], 
 ["Warlock", "Alternative",true, false, "Like the bad or the sorcerer"],
@@ -208,10 +208,10 @@ name_list = [
 ["Towser", "Famous Animals", false, true, "Made it in the Guinness Book of Records as the world's best mouser with a solid count of 28,899 mice."],
 ["Pooli", "Famous Animals", false, true,"Pooli the cat was taken aboard the attack transport USS Fremont."],
 ["Room8", "Famous Animals", true, false, "Room 8 (1947–1968) was a neighborhood cat who wandered into a classroom in 1952 at Elysian Heights Elementary School in Echo Park, California. He lived in the school during the school year and then disappeared for the summer, returning when classes started again. This pattern continued without interruption until the mid-1960s"],
-["Nighlife", "Famous Animals", true, false, "Beloved local fixture of Atlantic City bar scene."]
-["Dorsey", "Famous Animals", true, false, "Mail carrying dog from Calico to Bismark."]
-["Jacko", "Famous Animals", true, false, "Found his owners murderer and told the police."]
-["Worm", "Animals", true, false "One of the coolest dogs I have ever met."],
+["Nighlife", "Famous Animals", true, false, "Beloved local fixture of Atlantic City bar scene."],
+["Dorsey", "Famous Animals", true, false, "Mail carrying dog from Calico to Bismark."],
+["Jacko", "Famous Animals", true, false, "Found his owners murderer and told the police."],
+["Worm", "Animals", true, false, "One of the coolest dogs I have ever met."],
 ["Chicken", "Animals", true, true, "Could be friends with Waffles."], 
 ["Pigeon", "Animals", true, true, "Dirty dove."],
 ["Mouse", "Animals", true, true, " "], 
@@ -220,7 +220,7 @@ name_list = [
 ["Goose", "Animals", true, true, "So silly."],
 ["Pig", "Animals", true, true, "ACAB"],
 ["Raven", "Animals", true, true, "So goth."],
-["Possum", "Animals", true, true, "'O'"],
+["Possum", "Animals", true, true, "'Oh Possum!'"],
 ["Spider", "Animals", true, true, "Great kitten name."],
 ["Banshee", "Mythical Creatures", false, true, "Woman of the faeries"],
 ["Warlock", "Mythical Creatures", true, false, "A man who practices witchcraft; a sorcerer."],
@@ -242,7 +242,7 @@ name_list = [
 ["Begonia", "Plants and Flowers", false, true, " "],
 ["Lily", "Plants and Flowers", "Plants and Flowers", false, true, " "],
 ["Daffodil", "Plants and Flowers", "Plants and Flowers", false, true, " "],
-["Cedar", "Plants and Flowers", "Plants and Flowers", false, true, " " ]
+["Cedar", "Plants and Flowers", "Plants and Flowers", false, true, " "],
 ["Ouija", "Spooky Stuff", true, true, "'WEEE-JEEE'"],
 ["Tarot", "Spooky Stuff", true, true, "The 'T' is silent."],
 ["Ghost", "Spooky Stuff", true, true, "GOT or just goth af."],
