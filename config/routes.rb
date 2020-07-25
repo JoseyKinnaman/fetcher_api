@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  resources :names
+root to: 'names#index'
+  resources :names do
+    collection do
+      get 'random'
+    end
+  end
 end
