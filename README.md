@@ -12,15 +12,15 @@ A pet name database and opensource API made as a tool for pet owners and animal 
   * Type "rake db:setup" to create databases and migrations
   * Type "rails s" to run on local server
   * Access "localhost:3000" 
-  * Heroku in Postman or cURL for calls. ```fill in```
+  * Heroku in Postman or cURL for calls. ```https://pet-name-api.herokuapp.com/names/random```
 
 # Endpoints
 
 ## GET 
-* /names returns all pet names and their parameters (id (?), name, category, male, female)
-* /names/:id returns an pet name and its parameters matching the id  ?
+* /names returns all pet names and their parameters (id (?), name, category
+* /names/:id returns an pet name and its parameters matching the id #.
 * /names/random will return a random pet name and its parameters
-* /names?category= will return a search result for a name by a specific category
+* /names?category= will return a search result for a name by a specific category * still need to work out scope
 
 
 ## DELETE
@@ -82,9 +82,9 @@ http code 402
 }
 ```
 To Do:
-- continue seeding
-- scopes: random, male, female, both? , category
-- Make interface for api 
+- edit for errors push again to heroku
+- scopes:category
+- Make interface for api?
 - post to open source
 - make open source
 
