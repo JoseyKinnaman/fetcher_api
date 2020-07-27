@@ -17,7 +17,7 @@ A pet name database and opensource API made as a tool for pet owners and animal 
 # Endpoints
 
 ## GET 
-* /names returns all pet names and their parameters (id (?), name, category
+* /names returns all pet names and their parameters (id, name, category
 * /names/:id returns an pet name and its parameters matching the id #.
 * /names/random will return a random pet name and its parameters
 * /names?category= will return a search result for a name by a specific category: Example categories: Animals, Spooky Stuff, People Names, Famous Animals, New Age, Alternative, Famous People, Nonsensical, Food and Drink, International, and Fictional Characters.
