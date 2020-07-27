@@ -1,7 +1,11 @@
 class NamesController < ApplicationController
 
   def index
-    @names = Name.all
+    if category = params[:category]
+      @names = Name.search(category)
+    else
+      @names = Name.all
+    end
     json_response(@names)
   end
 
