@@ -82,8 +82,6 @@ http code 402
 }
 ```
 To Do:
-- edit for errors push again to heroku
-- scopes:category
 - Make interface for api?
 - post to open source
 - make open source
