@@ -81,9 +81,5 @@ http code 402
     "resolve": "Couldn't find name with 'id'=101"
 }
 ```
-To Do:
-- Make interface for api?
-- post to open source
-- make open source
 
 
