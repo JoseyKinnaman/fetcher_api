@@ -27,7 +27,7 @@ A pet name database and opensource API made as a tool for pet owners and animal 
 * /names/:id will delete an pet and its parameters matching the id
 
 ## POST
-* /names will create an name and add it to the database
+* /names will create a name and add it to the database
 
 ## PUT
 * /names/:id will update a parameter or parameters of an name
